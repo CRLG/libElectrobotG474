@@ -41,6 +41,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
+volatile uint8_t tick = 0;
 
 /* USER CODE END PV */
 
@@ -183,6 +184,7 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
   /* USER CODE BEGIN SysTick_IRQn 0 */
+  tick = 1;
 
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();

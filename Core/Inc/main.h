@@ -50,6 +50,19 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+extern I2C_HandleTypeDef hi2c2;
+
+extern SPI_HandleTypeDef hspi2;
+
+extern TIM_HandleTypeDef htim2;
+extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim4;
+extern TIM_HandleTypeDef htim8;
+
+extern UART_HandleTypeDef huart4;
+extern UART_HandleTypeDef huart5;
+
+extern volatile uint8_t tick;
 
 /* USER CODE END ET */
 

@@ -58,6 +58,8 @@ TIM_HandleTypeDef htim8;
 UART_HandleTypeDef huart4;
 UART_HandleTypeDef huart5;
 
+extern volatile uint8_t tick;
+
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
