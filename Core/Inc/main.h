@@ -98,8 +98,8 @@ void Error_Handler(void);
 #define Mot3_Sens2_GPIO_Port GPIOC
 #define Eana1_Pin GPIO_PIN_0
 #define Eana1_GPIO_Port GPIOA
-#define Servo2_PWM_Pin GPIO_PIN_1
-#define Servo2_PWM_GPIO_Port GPIOA
+#define Servo3_PWM_Pin GPIO_PIN_1
+#define Servo3_PWM_GPIO_Port GPIOA
 #define LPUART1_TX_Pin GPIO_PIN_2
 #define LPUART1_TX_GPIO_Port GPIOA
 #define LPUART1_RX_Pin GPIO_PIN_3
@@ -118,10 +118,10 @@ void Error_Handler(void);
 #define Led1_GPIO_Port GPIOB
 #define Led2_Pin GPIO_PIN_2
 #define Led2_GPIO_Port GPIOB
-#define Servo3_PWM_Pin GPIO_PIN_10
-#define Servo3_PWM_GPIO_Port GPIOB
-#define Servo4_PWM_Pin GPIO_PIN_11
+#define Servo4_PWM_Pin GPIO_PIN_10
 #define Servo4_PWM_GPIO_Port GPIOB
+#define Servo1_PWM_Pin GPIO_PIN_11
+#define Servo1_PWM_GPIO_Port GPIOB
 #define SPI_CS1_Pin GPIO_PIN_12
 #define SPI_CS1_GPIO_Port GPIOB
 #define SPI_SCK_Pin GPIO_PIN_13
@@ -148,8 +148,8 @@ void Error_Handler(void);
 #define T_SWDIO_GPIO_Port GPIOA
 #define T_SWCLK_Pin GPIO_PIN_14
 #define T_SWCLK_GPIO_Port GPIOA
-#define Servo1_PWM_Pin GPIO_PIN_15
-#define Servo1_PWM_GPIO_Port GPIOA
+#define Servo2_PWM_Pin GPIO_PIN_15
+#define Servo2_PWM_GPIO_Port GPIOA
 #define RS232_1_TX_Pin GPIO_PIN_10
 #define RS232_1_TX_GPIO_Port GPIOC
 #define RS232_1_RX_Pin GPIO_PIN_11
